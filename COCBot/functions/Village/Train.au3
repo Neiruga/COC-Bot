@@ -33,6 +33,13 @@ Func TrainIt($troopKind, $howMuch = 1, $iSleep = 100)
 EndFunc
 
 Func Train()
+     $ArmyComp = 0
+	 $CurGiant = 0
+	 $CurWB = 0
+	 $CurArch = 0
+	 $CurBarb = 0
+	 $CurGoblin = 0
+
 	If _GUICtrlComboBox_GetCurSel($cmbTroopComp) <> 8 Then
 		checkArmyCamp()
 	EndIf
@@ -149,15 +156,15 @@ Func Train()
 			$brrNum += 1
 			Switch $barrackTroop[$brrNum-1]
 				Case 0
-						Click(220, 320, 15)
+						Click(220, 320,75)
 				Case 1
-						Click(331, 320, 15)
+						Click(331, 320, 75)
 				Case 2
-						Click(432, 320, 15)
+						Click(432, 320, 75)
 				Case 3
-						Click(546, 320, 15)
+						Click(546, 320, 75)
 				Case 4
-						Click(647, 320, 15)
+						Click(647, 320, 75)
 			EndSwitch
 
 			 Click($PrevPos[0], $PrevPos[1]) ;click prev button

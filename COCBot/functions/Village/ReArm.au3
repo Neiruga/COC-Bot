@@ -9,7 +9,7 @@ Func ReArm()
 	If $TownHallPos[0] = -1 Then
 		LocateTownHall()
 		SaveConfig()
-		If _Sleep(1000) Then Retun
+		If _Sleep(1000) Then Return
 	EndIf
 
 	Click(1, 1) ; Click away
