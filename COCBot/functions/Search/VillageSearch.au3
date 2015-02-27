@@ -1,6 +1,8 @@
 ;Searches for a village that until meets conditions
 
 Func VillageSearch($TakeSS = 0) ;Control for searching a village that meets conditions
+   $skippedVillages = 0
+   _WinAPI_EmptyWorkingSet(WinGetProcess($Title)) ; Reduce BlueStacks Memory Usage, moved from b
    If _Sleep(1000) Then Return
    _CaptureRegion() ; Check Break Shield button again
    If _ColorCheck(_GetPixelColor(513, 416), Hex(0x5DAC10, 6), 50) Then
@@ -17,12 +19,11 @@ Func VillageSearch($TakeSS = 0) ;Control for searching a village that meets cond
 		EndSwitch
 		SetLog("~Gold: " & $MinGold & "; Elixir: " & $MinElixir & "; Dark: " & $MinDark & "; Trophy: " & $MinTrophy & "; Townhall: " & $MaxTH, $COLOR_GREEN)
 		If $TakeSS = 1 Then SetLog("Will capture snapshots of all towns when searching", $COLOR_GREEN)
-		$SearchCount = 0
-		$NoLeague = 0
+		;$SearchCount = 0
+		;$NoLeague = 0
 	    _BlockInputEx(3, "", "", $HWnD)
 		While 1
-			_WinAPI_EmptyWorkingSet(WinGetProcess($Title)) ; Reduce BlueStacks Memory Usage
-			If _Sleep(6000) Then ExitLoop (2)
+			If _Sleep(1000) Then ExitLoop (2)
 			GetResources() ;Reads Resource Values
 
 			If $Restart = True Then ExitLoop (2)
@@ -34,6 +35,7 @@ Func VillageSearch($TakeSS = 0) ;Control for searching a village that meets cond
 			   _GDIPlus_ImageSaveToFile($hBitmap, @ScriptDir & "\AllTowns\" & $Date & " at " & $Time & ".png")
 			EndIf
 			;If CompareResources() Or ($THLoc = "Outside" And GUICtrlRead($chkMeetTHO) <> $GUI_CHECKED And GUICtrlRead($chkAttackTH) = $GUI_CHECKED) Then
+
 			If CompareResources() Then
 				;If $THLoc = "Outside" And GUICtrlRead($chkMeetTHO) <> $GUI_CHECKED And GUICtrlRead($chkAttackTH) = $GUI_CHECKED Then
 					;SetLog("~~~~~~~Outside Townhall Found!~~~~~~~", $COLOR_PURPLE)
@@ -45,15 +47,15 @@ Func VillageSearch($TakeSS = 0) ;Control for searching a village that meets cond
 					 Else
 						If _Sleep(1000) Then ExitLoop (2)
 						SetLog("~~~~~~~Not a dead base, skipping~~~~~~~", $COLOR_ORANGE)
-						GUICtrlSetData($lblresultvillagesskipped, GUICtrlRead($lblresultvillagesskipped)+1)
 						Click(750, 500) ;Click Next
+						$skippedVillages = $skippedVillages + 1
 					EndIf
 				Else
 					ExitLoop
 				EndIf
 			 Else
 				If _Sleep(1000) Then ExitLoop (2)
-			    GUICtrlSetData($lblresultvillagesskipped, GUICtrlRead($lblresultvillagesskipped)+1)
+			    $skippedVillages = $skippedVillages + 1
 				Click(750, 500) ;Click Next
 			EndIf
 		WEnd
@@ -64,7 +66,8 @@ Func VillageSearch($TakeSS = 0) ;Control for searching a village that meets cond
 			Else
 			   SoundPlay(@WindowsDir & "\media\Festival\Windows Exclamation.wav", 1)
 			EndIf
-		EndIf
+		 EndIf
+		 GUICtrlSetData($lblresultvillagesskipped, GUICtrlRead($lblresultvillagesskipped)+ $skippedVillages)
 		SetLog("===============Searching Complete===============", $COLOR_BLUE)
 		readConfig()
 		_BlockInputEx(0, "", "", $HWnD)

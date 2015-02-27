@@ -1,0 +1,433 @@
+2015-02-27 23:25:49 : ~~~~Welcome to COC Bot 1.2!~~~~
+2015-02-27 23:25:49 : Executable running on X64 OS
+2015-02-27 23:25:49 : Bot is starting...
+2015-02-27 23:25:50 : Trying to locate Main Screen
+2015-02-27 23:25:50 : Main Screen Located
+2015-02-27 23:25:56 : Donating Troops
+2015-02-27 23:25:59 : Chat Text: giant
+2015-02-27 23:26:01 : Chat Text: bantay
+2015-02-27 23:26:02 : Donating Archers
+2015-02-27 23:26:07 : Chat Text: bntay
+2015-02-27 23:26:08 : Donating Archers
+2015-02-27 23:26:16 : Finished Donating
+2015-02-27 23:26:18 : Training Troops...
+2015-02-27 23:26:20 : Army Camp Full : False
+2015-02-27 23:26:37 : Training Troops Complete...
+2015-02-27 23:26:39 : Requesting for Clan Castle Troops
+2015-02-27 23:26:48 : Collecting Resources
+2015-02-27 23:26:59 : Village Report
+2015-02-27 23:26:59 : Num. of Free Builders: 0
+2015-02-27 23:26:59 : Opening Builder page to read Resources..
+2015-02-27 23:27:02 : Resources: [G]: 2710739 [E]: 2501317 [D]: 11197 [GEM]: 56
+2015-02-27 23:27:02 : Checking Upgrade Walls
+2015-02-27 23:27:02 : Upgrading Walls Using Gold
+2015-02-27 23:27:02 : Don't have any free builders
+2015-02-27 23:27:03 : ====== Waiting for full army ======
+2015-02-27 23:27:35 : Training Troops...
+2015-02-27 23:27:37 : Army Camp Full : True
+2015-02-27 23:27:55 : Training Troops Complete...
+2015-02-27 23:27:57 : Searching...
+2015-02-27 23:28:03 : ============Searching For Dead Bases============
+2015-02-27 23:28:03 : ~Gold: 100000; Elixir: 100000; Dark: 0; Trophy: 0; Townhall: 10
+2015-02-27 23:28:14 : (1) [G]: 68324   [E]: 160563  [D]: 639     [T]: 28    [TH]: 8, Inside
+2015-02-27 23:28:16 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:28:22 : (2) [G]: 30376   [E]: 18839   [D]: 88      [T]: 30    [TH]: 7, Inside
+2015-02-27 23:28:31 : (3) [G]: 125337  [E]: 131466  [D]: 241     [T]: 19    [TH]: 8, Inside
+2015-02-27 23:28:33 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:28:56 : Cannot locate Next button, Restarting Bot
+2015-02-27 23:28:56 : Trying to locate Main Screen
+2015-02-27 23:29:02 : Waiting for Main Screen
+2015-02-27 23:29:39 : Main Screen Located
+2015-02-27 23:29:43 : Trying to locate Main Screen
+2015-02-27 23:29:43 : Main Screen Located
+2015-02-27 23:29:44 : Zooming Out
+2015-02-27 23:29:55 : Donating Troops
+2015-02-27 23:29:57 : Chat Text: giant
+2015-02-27 23:29:59 : Chat Text: pinanis ni amped
+2015-02-27 23:30:02 : Chat Text: drag
+2015-02-27 23:30:04 : Finished Donating
+2015-02-27 23:30:06 : Training Troops...
+2015-02-27 23:30:08 : Army Camp Full : True
+2015-02-27 23:30:25 : Training Troops Complete...
+2015-02-27 23:30:27 : Requesting for Clan Castle Troops
+2015-02-27 23:30:30 : Request has already been made
+2015-02-27 23:30:31 : Collecting Resources
+2015-02-27 23:30:41 : Village Report
+2015-02-27 23:30:41 : Num. of Free Builders: 0
+2015-02-27 23:30:41 : Opening Builder page to read Resources..
+2015-02-27 23:30:43 : Resources: [G]: 2708484 [E]: 2501057 [D]: 11199 [GEM]: 56
+2015-02-27 23:30:43 : Checking Upgrade Walls
+2015-02-27 23:30:43 : Upgrading Walls Using Gold
+2015-02-27 23:30:43 : Don't have any free builders
+2015-02-27 23:30:46 : Searching...
+2015-02-27 23:30:52 : ============Searching For Dead Bases============
+2015-02-27 23:30:52 : ~Gold: 100000; Elixir: 100000; Dark: 0; Trophy: 0; Townhall: 10
+2015-02-27 23:30:55 : (4) [G]: 28972   [E]: 30346   [D]: 3       [T]: 14    [TH]: 7, Inside
+2015-02-27 23:31:03 : (5) [G]: 29263   [E]: 46138   [D]: 0       [T]: 31    [TH]: 8, Inside
+2015-02-27 23:31:09 : (6) [G]: 1947    [E]:         [D]: 0       [T]: 15    [TH]: 4-6, Inside
+2015-02-27 23:31:34 : Cannot locate Next button, Restarting Bot
+2015-02-27 23:31:34 : Trying to locate Main Screen
+2015-02-27 23:31:42 : Waiting for Main Screen
+2015-02-27 23:31:49 : Main Screen Located
+2015-02-27 23:31:52 : Trying to locate Main Screen
+2015-02-27 23:31:52 : Main Screen Located
+2015-02-27 23:31:53 : Zooming Out
+2015-02-27 23:32:06 : Donating Troops
+2015-02-27 23:32:08 : Chat Text: giant
+2015-02-27 23:32:10 : Chat Text: pinanis ni amped
+2015-02-27 23:32:13 : Chat Text: drag
+2015-02-27 23:32:15 : Finished Donating
+2015-02-27 23:32:16 : Training Troops...
+2015-02-27 23:32:18 : Army Camp Full : True
+2015-02-27 23:32:35 : Training Troops Complete...
+2015-02-27 23:32:38 : Requesting for Clan Castle Troops
+2015-02-27 23:32:40 : Request has already been made
+2015-02-27 23:32:41 : Collecting Resources
+2015-02-27 23:32:52 : Village Report
+2015-02-27 23:32:52 : Num. of Free Builders: 0
+2015-02-27 23:32:52 : Opening Builder page to read Resources..
+2015-02-27 23:32:54 : Resources: [G]: 2705484 [E]: 2500057 [D]: 11199 [GEM]: 56
+2015-02-27 23:32:54 : Checking Upgrade Walls
+2015-02-27 23:32:54 : Upgrading Walls Using Gold
+2015-02-27 23:32:54 : Don't have any free builders
+2015-02-27 23:32:56 : Searching...
+2015-02-27 23:33:02 : ============Searching For Dead Bases============
+2015-02-27 23:33:03 : ~Gold: 100000; Elixir: 100000; Dark: 0; Trophy: 0; Townhall: 10
+2015-02-27 23:33:04 : (7) [G]: 42412   [E]: 76575   [D]: 132     [T]: 30    [TH]: 8, Inside
+2015-02-27 23:33:11 : (8) [G]: 50537   [E]: 38387   [D]: 136     [T]: 16    [TH]: 7, Inside
+2015-02-27 23:33:17 : (9) [G]: 67400   [E]: 124958  [D]: 308     [T]: 19    [TH]: 9, Inside
+2015-02-27 23:33:19 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:33:24 : (10) [G]: 20854   [E]: 17198   [D]: 219     [T]: 23    [TH]: 7, Inside
+2015-02-27 23:33:31 : (11) [G]: 15395   [E]: 86336   [D]: 138     [T]: 20    [TH]: 10, Outside
+2015-02-27 23:33:37 : (12) [G]: 31805   [E]: 39451   [D]: 168     [T]: 20    [TH]: 10, Outside
+2015-02-27 23:33:44 : (13) [G]: 67299   [E]: 131335  [D]: 532     [T]: 15    [TH]: 10, Outside
+2015-02-27 23:33:46 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:33:51 : (14) [G]: 31749   [E]: 64817   [D]: 416     [T]: 27    [TH]: 8, Inside
+2015-02-27 23:33:59 : (15) [G]: 262617  [E]: 314524  [D]: 2296    [T]: 32    [TH]: 10, Outside
+2015-02-27 23:33:59 : ~~~~~~~Dead Base Found!~~~~~~~
+2015-02-27 23:34:02 : ===============Searching Complete===============
+2015-02-27 23:34:03 : Preparing to attack
+2015-02-27 23:34:03 : -Barbarians 171
+2015-02-27 23:34:03 : -Archers 29
+2015-02-27 23:34:04 : -King 
+2015-02-27 23:34:05 : ======Beginning Attack======
+2015-02-27 23:34:07 : ~Attacking in all sides...
+2015-02-27 23:34:08 : Dropping first wave of 86 Barbarians
+2015-02-27 23:34:15 : Dropping first wave of 15 Archers
+2015-02-27 23:34:17 : Dropping second wave of 86 Barbarians
+2015-02-27 23:34:23 : Dropping second wave of 15 Archers
+2015-02-27 23:34:27 : Dropping King
+2015-02-27 23:34:29 : Dropping left over troops
+2015-02-27 23:34:29 : Checking remainding unused troops
+2015-02-27 23:34:30 : -Barbarians 19
+2015-02-27 23:34:30 : Dropping last wave of 19 Barbarians
+2015-02-27 23:34:35 : Checking remainding unused troops
+2015-02-27 23:34:39 : Waiting 9 seconds before activating Hero abilities
+2015-02-27 23:34:48 : Activate King's power
+2015-02-27 23:34:48 : ~Finished Attacking, waiting to finish
+2015-02-27 23:35:15 : Checking if the battle has finished
+2015-02-27 23:35:31 : Gold & Elixir change detected, waiting...
+2015-02-27 23:35:32 : Checking if the battle has finished
+2015-02-27 23:35:47 : Gold & Elixir change detected, waiting...
+2015-02-27 23:35:48 : Checking if the battle has finished
+2015-02-27 23:36:04 : Returning Home
+2015-02-27 23:36:22 : Trying to locate Main Screen
+2015-02-27 23:36:23 : Main Screen Located
+2015-02-27 23:36:27 : Donating Troops
+2015-02-27 23:36:29 : Chat Text: giant
+2015-02-27 23:36:31 : Chat Text: pinanis ni amped
+2015-02-27 23:36:34 : Chat Text: drag
+2015-02-27 23:36:36 : Finished Donating
+2015-02-27 23:36:38 : Training Troops...
+2015-02-27 23:36:40 : Army Camp Full : False
+2015-02-27 23:36:57 : Training Troops Complete...
+2015-02-27 23:36:59 : Requesting for Clan Castle Troops
+2015-02-27 23:37:02 : Request has already been made
+2015-02-27 23:37:03 : Collecting Resources
+2015-02-27 23:37:13 : Village Report
+2015-02-27 23:37:13 : Num. of Free Builders: 0
+2015-02-27 23:37:13 : Opening Builder page to read Resources..
+2015-02-27 23:37:15 : Resources: [G]: 2701260 [E]: 2516566 [D]: 11590 [GEM]: 56
+2015-02-27 23:37:15 : Checking Upgrade Walls
+2015-02-27 23:37:15 : Upgrading Walls Using Gold
+2015-02-27 23:37:15 : Don't have any free builders
+2015-02-27 23:37:16 : ====== Waiting for full army ======
+2015-02-27 23:37:48 : Training Troops...
+2015-02-27 23:37:50 : Army Camp Full : False
+2015-02-27 23:38:07 : Training Troops Complete...
+2015-02-27 23:38:09 : Donating Troops
+2015-02-27 23:38:11 : Chat Text: ar
+2015-02-27 23:38:12 : Donating Archers
+2015-02-27 23:38:17 : Chat Text: giant
+2015-02-27 23:38:20 : Chat Text: pinanis ni amped
+2015-02-27 23:38:23 : Chat Text: drag
+2015-02-27 23:38:24 : Finished Donating
+2015-02-27 23:38:25 : Time Idle: 0 hours 1 minutes 8 seconds
+2015-02-27 23:38:25 : ====== Waiting for full army ======
+2015-02-27 23:38:57 : Training Troops...
+2015-02-27 23:39:00 : Army Camp Full : False
+2015-02-27 23:39:16 : Training Troops Complete...
+2015-02-27 23:39:19 : Donating Troops
+2015-02-27 23:39:21 : Chat Text: giant
+2015-02-27 23:39:23 : Chat Text: pinanis ni amped
+2015-02-27 23:39:26 : Chat Text: drag
+2015-02-27 23:39:27 : Finished Donating
+2015-02-27 23:39:28 : Time Idle: 0 hours 2 minutes 11 seconds
+2015-02-27 23:39:28 : ====== Waiting for full army ======
+2015-02-27 23:40:00 : Training Troops...
+2015-02-27 23:40:02 : Army Camp Full : False
+2015-02-27 23:40:19 : Training Troops Complete...
+2015-02-27 23:40:21 : Donating Troops
+2015-02-27 23:40:23 : Chat Text: giant
+2015-02-27 23:40:26 : Chat Text: pinanis ni amped
+2015-02-27 23:40:29 : Chat Text: drag
+2015-02-27 23:40:30 : Finished Donating
+2015-02-27 23:40:31 : Time Idle: 0 hours 3 minutes 14 seconds
+2015-02-27 23:40:31 : ====== Waiting for full army ======
+2015-02-27 23:41:03 : Training Troops...
+2015-02-27 23:41:06 : Army Camp Full : False
+2015-02-27 23:41:23 : Training Troops Complete...
+2015-02-27 23:41:26 : Donating Troops
+2015-02-27 23:41:28 : Chat Text: giant
+2015-02-27 23:41:30 : Chat Text: pinanis ni amped
+2015-02-27 23:41:33 : Chat Text: drag
+2015-02-27 23:41:35 : Finished Donating
+2015-02-27 23:41:36 : Time Idle: 0 hours 4 minutes 19 seconds
+2015-02-27 23:41:36 : ====== Waiting for full army ======
+2015-02-27 23:42:08 : Training Troops...
+2015-02-27 23:42:10 : Army Camp Full : False
+2015-02-27 23:42:27 : Training Troops Complete...
+2015-02-27 23:42:29 : Donating Troops
+2015-02-27 23:42:31 : Chat Text: giant
+2015-02-27 23:42:34 : Chat Text: pinanis ni amped
+2015-02-27 23:42:37 : Chat Text: drag
+2015-02-27 23:42:38 : Finished Donating
+2015-02-27 23:42:39 : Time Idle: 0 hours 5 minutes 22 seconds
+2015-02-27 23:42:39 : ====== Waiting for full army ======
+2015-02-27 23:43:11 : Training Troops...
+2015-02-27 23:43:14 : Army Camp Full : False
+2015-02-27 23:43:31 : Training Troops Complete...
+2015-02-27 23:43:33 : Donating Troops
+2015-02-27 23:43:35 : Chat Text: giant
+2015-02-27 23:43:37 : Chat Text: pinanis ni amped
+2015-02-27 23:43:40 : Chat Text: drag
+2015-02-27 23:43:42 : Finished Donating
+2015-02-27 23:43:42 : Time Idle: 0 hours 6 minutes 26 seconds
+2015-02-27 23:43:43 : ====== Waiting for full army ======
+2015-02-27 23:44:15 : Training Troops...
+2015-02-27 23:44:17 : Army Camp Full : False
+2015-02-27 23:44:34 : Training Troops Complete...
+2015-02-27 23:44:36 : Donating Troops
+2015-02-27 23:44:38 : Chat Text: giants
+2015-02-27 23:44:40 : Chat Text: giant
+2015-02-27 23:44:43 : Chat Text: pinanis ni amped
+2015-02-27 23:44:46 : Chat Text: drag
+2015-02-27 23:44:48 : Finished Donating
+2015-02-27 23:44:48 : Time Idle: 0 hours 7 minutes 31 seconds
+2015-02-27 23:44:48 : ====== Waiting for full army ======
+2015-02-27 23:45:20 : Training Troops...
+2015-02-27 23:45:23 : Army Camp Full : False
+2015-02-27 23:45:40 : Training Troops Complete...
+2015-02-27 23:45:42 : Donating Troops
+2015-02-27 23:45:44 : Chat Text: giants
+2015-02-27 23:45:46 : Chat Text: giant
+2015-02-27 23:45:49 : Chat Text: pinanis ni amped
+2015-02-27 23:45:51 : Chat Text: drag
+2015-02-27 23:45:53 : Finished Donating
+2015-02-27 23:45:54 : Time Idle: 0 hours 8 minutes 37 seconds
+2015-02-27 23:45:54 : ====== Waiting for full army ======
+2015-02-27 23:46:26 : Collecting Resources
+2015-02-27 23:46:36 : Training Troops...
+2015-02-27 23:46:38 : Army Camp Full : False
+2015-02-27 23:46:55 : Training Troops Complete...
+2015-02-27 23:46:58 : Donating Troops
+2015-02-27 23:47:00 : Chat Text: giants
+2015-02-27 23:47:02 : Chat Text: giant
+2015-02-27 23:47:04 : Chat Text: pinanis ni amped
+2015-02-27 23:47:07 : Chat Text: drag
+2015-02-27 23:47:09 : Finished Donating
+2015-02-27 23:47:10 : Time Idle: 0 hours 9 minutes 53 seconds
+2015-02-27 23:47:10 : ====== Waiting for full army ======
+2015-02-27 23:47:42 : Training Troops...
+2015-02-27 23:47:44 : Army Camp Full : False
+2015-02-27 23:48:01 : Training Troops Complete...
+2015-02-27 23:48:04 : Donating Troops
+2015-02-27 23:48:07 : Finished Donating
+2015-02-27 23:48:07 : Time Idle: 0 hours 10 minutes 50 seconds
+2015-02-27 23:48:07 : ====== Waiting for full army ======
+2015-02-27 23:48:39 : Training Troops...
+2015-02-27 23:48:41 : Army Camp Full : False
+2015-02-27 23:48:58 : Training Troops Complete...
+2015-02-27 23:49:01 : Donating Troops
+2015-02-27 23:49:03 : Chat Text: giants
+2015-02-27 23:49:05 : Chat Text: giant
+2015-02-27 23:49:07 : Chat Text: pinanis ni amped
+2015-02-27 23:49:10 : Chat Text: drag
+2015-02-27 23:49:12 : Finished Donating
+2015-02-27 23:49:13 : Time Idle: 0 hours 11 minutes 56 seconds
+2015-02-27 23:49:13 : ====== Waiting for full army ======
+2015-02-27 23:49:45 : Training Troops...
+2015-02-27 23:49:47 : Army Camp Full : False
+2015-02-27 23:50:03 : Training Troops Complete...
+2015-02-27 23:50:06 : Donating Troops
+2015-02-27 23:50:08 : Chat Text: drag
+2015-02-27 23:50:10 : Finished Donating
+2015-02-27 23:50:10 : Time Idle: 0 hours 12 minutes 53 seconds
+2015-02-27 23:50:10 : ====== Waiting for full army ======
+2015-02-27 23:50:42 : Training Troops...
+2015-02-27 23:50:44 : Army Camp Full : False
+2015-02-27 23:51:02 : Training Troops Complete...
+2015-02-27 23:51:04 : Donating Troops
+2015-02-27 23:51:06 : Chat Text: giants
+2015-02-27 23:51:08 : Chat Text: giant
+2015-02-27 23:51:11 : Chat Text: pinanis ni amped
+2015-02-27 23:51:13 : Chat Text: giants
+2015-02-27 23:51:15 : Chat Text: giant
+2015-02-27 23:51:18 : Chat Text: pinanis ni amped
+2015-02-27 23:51:21 : Chat Text: drag
+2015-02-27 23:51:23 : Finished Donating
+2015-02-27 23:51:23 : Time Idle: 0 hours 14 minutes 6 seconds
+2015-02-27 23:51:23 : ====== Waiting for full army ======
+2015-02-27 23:51:56 : Training Troops...
+2015-02-27 23:51:58 : Army Camp Full : True
+2015-02-27 23:52:15 : Training Troops Complete...
+2015-02-27 23:52:17 : Searching...
+2015-02-27 23:52:24 : ============Searching For Dead Bases============
+2015-02-27 23:52:24 : ~Gold: 100000; Elixir: 100000; Dark: 0; Trophy: 0; Townhall: 10
+2015-02-27 23:52:26 : (16) [G]: 100667  [E]: 46943   [D]: 321     [T]: 22    [TH]: 9, Inside
+2015-02-27 23:52:30 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:52:35 : (17) [G]: 121929  [E]: 94992   [D]: 244     [T]: 28    [TH]: 10, Outside
+2015-02-27 23:52:37 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:52:43 : (18) [G]: 63960   [E]: 41004   [D]: 409     [T]: 25    [TH]: 9, Inside
+2015-02-27 23:52:49 : (19) [G]: 66254   [E]: 107383  [D]: 556     [T]: 23    [TH]: 8, Inside
+2015-02-27 23:52:51 : ~~~~~~~Not a dead base, skipping~~~~~~~
+2015-02-27 23:52:56 : (20) [G]: 17425   [E]: 26648   [D]: 142     [T]: 13    [TH]: 7, Inside
+2015-02-27 23:52:56 : ~Gold: 95000; Elixir: 95000; Dark: 0; Trophy: 0; Townhall: 10
+2015-02-27 23:53:03 : (21) [G]: 293409  [E]: 351761  [D]: 1229    [T]: 20    [TH]: 10, Outside
+2015-02-27 23:53:03 : ~~~~~~~Dead Base Found!~~~~~~~
+2015-02-27 23:53:04 : ===============Searching Complete===============
+2015-02-27 23:53:05 : Preparing to attack
+2015-02-27 23:53:06 : -Barbarians 134
+2015-02-27 23:53:06 : -Archers 66
+2015-02-27 23:53:06 : -Clan Castle 
+2015-02-27 23:53:08 : ======Beginning Attack======
+2015-02-27 23:53:10 : ~Attacking in all sides...
+2015-02-27 23:53:11 : Dropping first wave of 67 Barbarians
+2015-02-27 23:53:16 : Dropping first wave of 33 Archers
+2015-02-27 23:53:20 : Dropping second wave of 67 Barbarians
+2015-02-27 23:53:25 : Dropping Clan Castle
+2015-02-27 23:53:25 : Dropping second wave of 33 Archers
+2015-02-27 23:53:32 : Dropping left over troops
+2015-02-27 23:53:32 : Checking remainding unused troops
+2015-02-27 23:53:32 : -Barbarians 5
+2015-02-27 23:53:33 : -Archers 6
+2015-02-27 23:53:33 : Dropping last wave of 5 Barbarians
+2015-02-27 23:53:35 : Dropping last wave of 6 Archers
+2015-02-27 23:53:39 : Checking remainding unused troops
+2015-02-27 23:53:42 : ~Finished Attacking, waiting to finish
+2015-02-27 23:54:18 : Checking if the battle has finished
+2015-02-27 23:54:24 : Battle has finished
+2015-02-27 23:54:24 : Returning Home
+2015-02-27 23:54:40 : Trying to locate Main Screen
+2015-02-27 23:54:40 : Main Screen Located
+2015-02-27 23:54:44 : Donating Troops
+2015-02-27 23:54:46 : Chat Text: giants
+2015-02-27 23:54:49 : Chat Text: giant
+2015-02-27 23:54:51 : Chat Text: pinanis ni amped
+2015-02-27 23:54:54 : Chat Text: drag
+2015-02-27 23:54:56 : Finished Donating
+2015-02-27 23:54:58 : Training Troops...
+2015-02-27 23:55:00 : Army Camp Full : False
+2015-02-27 23:55:17 : Training Troops Complete...
+2015-02-27 23:55:19 : Requesting for Clan Castle Troops
+2015-02-27 23:55:26 : Collecting Resources
+2015-02-27 23:55:36 : Village Report
+2015-02-27 23:55:36 : Num. of Free Builders: 0
+2015-02-27 23:55:36 : Opening Builder page to read Resources..
+2015-02-27 23:55:38 : Resources: [G]: 2823911 [E]: 2625934 [D]: 12530 [GEM]: 56
+2015-02-27 23:55:38 : Checking Upgrade Walls
+2015-02-27 23:55:38 : Upgrading Walls Using Gold
+2015-02-27 23:55:38 : Don't have any free builders
+2015-02-27 23:55:39 : ====== Waiting for full army ======
+2015-02-27 23:56:11 : Training Troops...
+2015-02-27 23:56:14 : Army Camp Full : False
+2015-02-27 23:56:31 : Training Troops Complete...
+2015-02-27 23:56:33 : Donating Troops
+2015-02-27 23:56:35 : Chat Text: giants
+2015-02-27 23:56:38 : Chat Text: giant
+2015-02-27 23:56:40 : Chat Text: pinanis ni amped
+2015-02-27 23:56:43 : Chat Text: drag
+2015-02-27 23:56:45 : Finished Donating
+2015-02-27 23:56:46 : Time Idle: 0 hours 1 minutes 6 seconds
+2015-02-27 23:56:46 : ====== Waiting for full army ======
+2015-02-27 23:57:18 : Training Troops...
+2015-02-27 23:57:20 : Army Camp Full : False
+2015-02-27 23:57:37 : Training Troops Complete...
+2015-02-27 23:57:39 : Donating Troops
+2015-02-27 23:57:42 : Chat Text: giants
+2015-02-27 23:57:45 : Chat Text: giant
+2015-02-27 23:57:47 : Chat Text: pinanis ni amped
+2015-02-27 23:57:50 : Chat Text: drag
+2015-02-27 23:57:52 : Finished Donating
+2015-02-27 23:57:52 : Time Idle: 0 hours 2 minutes 12 seconds
+2015-02-27 23:57:52 : ====== Waiting for full army ======
+2015-02-27 23:58:24 : Training Troops...
+2015-02-27 23:58:27 : Army Camp Full : False
+2015-02-27 23:58:44 : Training Troops Complete...
+2015-02-27 23:58:46 : Donating Troops
+2015-02-27 23:58:48 : Chat Text: giants
+2015-02-27 23:58:51 : Chat Text: giant
+2015-02-27 23:58:53 : Chat Text: pinanis ni amped
+2015-02-27 23:58:56 : Chat Text: drag
+2015-02-27 23:58:58 : Finished Donating
+2015-02-27 23:58:59 : Time Idle: 0 hours 3 minutes 19 seconds
+2015-02-27 23:58:59 : ====== Waiting for full army ======
+2015-02-27 23:59:31 : Collecting Resources
+2015-02-27 23:59:41 : Training Troops...
+2015-02-27 23:59:43 : Army Camp Full : False
+2015-02-28 00:00:00 : Training Troops Complete...
+2015-02-28 00:00:02 : Donating Troops
+2015-02-28 00:00:04 : Chat Text: giants
+2015-02-28 00:00:07 : Chat Text: giant
+2015-02-28 00:00:09 : Chat Text: pinanis ni amped
+2015-02-28 00:00:12 : Chat Text: drag
+2015-02-28 00:00:14 : Finished Donating
+2015-02-28 00:00:15 : Time Idle: 0 hours 4 minutes 35 seconds
+2015-02-28 00:00:15 : ====== Waiting for full army ======
+2015-02-28 00:00:47 : Training Troops...
+2015-02-28 00:00:49 : Army Camp Full : False
+2015-02-28 00:00:53 : Training Troops Complete...
+2015-02-28 00:00:55 : Donating Troops
+2015-02-28 00:00:57 : Chat Text: ar
+2015-02-28 00:00:58 : Donating Archers
+2015-02-28 00:01:03 : Chat Text: giants
+2015-02-28 00:01:05 : Chat Text: giant
+2015-02-28 00:01:08 : Chat Text: pinanis ni amped
+2015-02-28 00:01:11 : Chat Text: drag
+2015-02-28 00:01:12 : Finished Donating
+2015-02-28 00:01:13 : Time Idle: 0 hours 5 minutes 33 seconds
+2015-02-28 00:01:13 : ====== Waiting for full army ======
+2015-02-28 00:01:45 : Training Troops...
+2015-02-28 00:01:48 : Army Camp Full : False
+2015-02-28 00:02:05 : Training Troops Complete...
+2015-02-28 00:02:07 : Donating Troops
+2015-02-28 00:02:09 : Chat Text: giants
+2015-02-28 00:02:11 : Chat Text: giant
+2015-02-28 00:02:14 : Chat Text: pinanis ni amped
+2015-02-28 00:02:16 : Chat Text: drag
+2015-02-28 00:02:18 : Finished Donating
+2015-02-28 00:02:19 : Time Idle: 0 hours 6 minutes 39 seconds
+2015-02-28 00:02:19 : ====== Waiting for full army ======
+2015-02-28 00:02:51 : Training Troops...
+2015-02-28 00:02:53 : Army Camp Full : False
+2015-02-28 00:03:11 : Training Troops Complete...
+2015-02-28 00:03:13 : Donating Troops
+2015-02-28 00:03:15 : Chat Text: drag f
+2015-02-28 00:03:17 : Chat Text: giants
+2015-02-28 00:03:20 : Chat Text: giant
+2015-02-28 00:03:24 : Chat Text: pinanis ni amped
+2015-02-28 00:03:27 : Chat Text: drag
+2015-02-28 00:03:28 : Finished Donating
+2015-02-28 00:03:29 : Time Idle: 0 hours 7 minutes 49 seconds
+2015-02-28 00:03:29 : ====== Waiting for full army ======
+2015-02-28 00:03:58 : Waiting for Main Screen
