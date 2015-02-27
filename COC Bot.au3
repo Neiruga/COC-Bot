@@ -1,25 +1,20 @@
 #RequireAdmin
 #AutoIt3Wrapper_UseX64=n
 #pragma compile(Icon, "Icons\cocbot.ico")
-#pragma compile(FileDescription, Clash of Clans Bot - A Free Clash of Clans bot - https://the.bytecode.club/)
-#pragma compile(ProductName, TBC Clashbot)
+#pragma compile(FileDescription, A Clash of Clans Bot)
+#pragma compile(ProductName, COC Bot)
 #pragma compile(ProductVersion, 1.0)
 #pragma compile(FileVersion, 1.0)
-#pragma compile(LegalCopyright, © https://the.bytecode.club/)
+#pragma compile(LegalCopyright, @ Neiruga)
+#pragma compile(LegalCopyright, Â© https://the.bytecode.club/)
 
-$sBotVersion = "5.6.3"
-$sBotTitle = "TBC Clashbot " & $sBotVersion
+$sBotVersion = "1.2"
+$sBotTitle = "COC BOT" & $sBotVersion
 
 If _Singleton($sBotTitle, 1) = 0 Then
 	MsgBox(0, "", "Bot is already running.")
 	Exit
  EndIf
-
-Local $sDestination = (@ScriptDir & "\Icons\logo.jpg")
-
-SplashImageOn("                        Free Clash of CLans Bot Brought To You By https://the.bytecode.club", $sDestination, 500, 80)
-Sleep(3000)
-SplashOff()
 
 If @AutoItX64 = 1 Then
 	MsgBox(0, "", "Don't Run/Compile the Script as (x64)! try to Run/Compile the Script as (x86) to get the bot to work." & @CRLF & _
@@ -174,4 +169,3 @@ Func Attack() ;Selects which algorithm
 ;~ 		  AdvancedAttack()
 ;~ 		EndSwitch
 EndFunc   ;==>Attack
-
