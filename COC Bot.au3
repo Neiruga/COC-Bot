@@ -5,11 +5,10 @@
 #pragma compile(ProductName, COC Bot)
 #pragma compile(ProductVersion, 1.0)
 #pragma compile(FileVersion, 1.0)
-#pragma compile(LegalCopyright, @ Neiruga)
-#pragma compile(LegalCopyright, © https://the.bytecode.club/)
+#pragma compile(LegalCopyright, © 2015 Neiruga & TBC)
 
 $sBotVersion = "1.2"
-$sBotTitle = "COC Bot" & $sBotVersion
+$sBotTitle = "COC Bot " & $sBotVersion
 
 If _Singleton($sBotTitle, 1) = 0 Then
 	MsgBox(0, "", "Bot is already running.")
