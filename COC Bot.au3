@@ -1,3 +1,6 @@
+
+;Source code can be found on https://github.com/Neiruga/COC-Bot
+
 #RequireAdmin
 #AutoIt3Wrapper_UseX64=n
 #pragma compile(Icon, "Icons\cocbot.ico")

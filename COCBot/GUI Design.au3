@@ -386,7 +386,7 @@ GUICtrlCreateTabItem("")
 ;Setup Tab
 $pageSetting = GUICtrlCreateTabItem("About Us")
 
-$lblResources = GUICtrlCreateLabel("This is a modified version of the original Clashbot. Less banners!", 130, 160, 230, 230, $SS_CENTER)
+$lblResources = GUICtrlCreateLabel("This is a modified version of the original Clashbot. Less banners! Source code can be found on https://github.com/Neiruga/COC-Bot", 130, 160, 230, 230, $SS_CENTER)
 
 
 ;~ -------------------------------------------------------------
