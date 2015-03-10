@@ -1,4 +1,3 @@
-
 ;==========================================================================
 ; Function name: GoldElixirChange
 ; Authored by:
@@ -38,20 +37,13 @@ Func GoldElixirChange()
 			EndIf
 			If (GUICtrlRead($cmbBoostBarracks) > 0) And ($boostsEnabled = 1) Then $x = 20000
 		WEnd
-		If ($Gold1 = $Gold2 And $Elixir1 = $Elixir2) Or ($Gold2 = "" And $Elixir2 = "") Then
-;		   $searchGold = -$GoldChange+$searchGold
-;		   $searchElixir = -$ElixirChange+$searchElixir
-;		   If $searchDark <> 0 Then $searchDark = -$Dark1+$searchDark
-;		    If $FirstAttack = 0 Then
-;			   GUICtrlSetData($lblresultgoldtstart, $searchGold)
-;			   GUICtrlSetData($lblresultelixirstart, $searchElixir)
-;			   GUICtrlSetData($lblresultdestart, $searchDark)
-;		    EndIf
-;		    GUICtrlSetData($lblresultgoldnow, GUICtrlRead($lblresultgoldnow)+$searchGold)
-;		    GUICtrlSetData($lblresultelixirnow, GUICtrlRead($lblresultelixirnow)+$searchElixir)
-;		    GUICtrlSetData($lblresultdenow, GUICtrlRead($lblresultdenow)+$searchDark)
-			GUICtrlSetData($lblresultvillagesattacked, GUICtrlRead($lblresultvillagesattacked)+1)
-;			$FirstAttack = 1
+			;If ($Gold1 = $Gold2 And $Elixir1 = $Elixir2) Or ($Gold2 = "" And $Elixir2 = "") Then
+			If ($Gold2 = "" And $Elixir2 = "") Then
+			Return False
+		 EndIf
+			If ($Gold1 = $Gold2 And $Elixir1 = $Elixir2) Then
+			SetLog("No Income detected, returning in " & $itxtReturnh & " seconds", $COLOR_BLUE)
+			If _Sleep($itxtReturnh * 1000) Then Return
 			Return False
 		Else
 			SetLog("Gold & Elixir change detected, waiting...", $COLOR_GREEN)

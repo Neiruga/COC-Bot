@@ -189,7 +189,7 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
          ; ================================================================================?
          algorithmTH()
          if LauchTroop($eGiant, $nbSides, 1, 1, 1) Then
-            If _Sleep(SetSleep(1)) Then Return
+            If _Sleep(setsleep(1)) Then Return
                EndIf
          if LauchTroop($eBarbarian, $nbSides, 1, 2) Then
             If _Sleep(SetSleep(1)) Then Return
@@ -206,12 +206,12 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
          If LauchTroop($eGoblin, $nbSides, 1, 2) Then
             If _Sleep(SetSleep(1)) Then Return
                EndIf
-		
+
 		 $RandomEdge = $Edges[Round(Random(0, 3))]
 		 $RandomXY = Round(Random(0, 4))
 		 dropCC($RandomEdge[$RandomXY][0], $RandomEdge[$RandomXY][1], $CC)
 
-			   
+
          If LauchTroop($eArcher, $nbSides, 2, 2) Then
             If _Sleep(SetSleep(1)) Then Return
                EndIf

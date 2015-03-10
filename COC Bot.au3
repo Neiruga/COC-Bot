@@ -6,11 +6,11 @@
 #pragma compile(Icon, "Icons\cocbot.ico")
 #pragma compile(FileDescription, A Clash of Clans Bot)
 #pragma compile(ProductName, COC Bot)
-#pragma compile(ProductVersion, 1.0)
-#pragma compile(FileVersion, 1.0)
+#pragma compile(ProductVersion, 2.1)
+#pragma compile(FileVersion, 2.1)
 #pragma compile(LegalCopyright, © 2015 Neiruga & TBC)
 
-$sBotVersion = "1.2"
+$sBotVersion = "2.1"
 $sBotTitle = "COC Bot " & $sBotVersion
 
 If _Singleton($sBotTitle, 1) = 0 Then
@@ -19,8 +19,8 @@ If _Singleton($sBotTitle, 1) = 0 Then
  EndIf
 
 If @AutoItX64 = 1 Then
-	MsgBox(0, "", "Don't Run/Compile the Script as (x64)! try to Run/Compile the Script as (x86) to get the bot to work." & @CRLF & _
-				  "If this message still appears, try to re-install AutoIt.")
+	MsgBox(0, "", "Don't Run/Compile Script (x64)! try to Run/Compile Script (x86) to getting this bot work." & @CRLF & _
+				  "If this message still appear, try to re-install your AutoIt with newer version.")
 	Exit
 EndIf
 
@@ -52,6 +52,9 @@ WEnd
 
 Func runBot() ;Bot that runs everything in order
 	While 1
+		SaveConfig()
+		readConfig()
+		applyConfig()
 		$Restart = False
 		$fullArmy = False
 		$CommandStop = -1
@@ -68,10 +71,6 @@ Func runBot() ;Bot that runs everything in order
 		If $Restart = True Then ContinueLoop
 		ReArm()
 		If _Sleep(1000) Then Return
-		checkMainScreen(False)
-		If $Restart = True Then ContinueLoop
-		DonateCC()
-		If _Sleep(1000) Then Return
 		If $CommandStop <> 0 Then
 			Train()
 			If _Sleep(1000) Then Return
@@ -83,16 +82,15 @@ Func runBot() ;Bot that runs everything in order
 		RequestCC()
 		If _Sleep(1000) Then Return
 		checkMainScreen(False)
-	    If $Restart = True Then ContinueLoop
-		checkMainScreen(False)
 		If $Restart = True Then ContinueLoop
+		DonateCC()
+		If _Sleep(1000) Then Return
+		checkMainScreen(False)
+	    If $Restart = True Then ContinueLoop
 		Collect()
 		If _Sleep(1000) Then Return
 		checkMainScreen(False)
 		If $Restart = True Then ContinueLoop
-		UpgradeWall()
-
-		If _Sleep(1000) Then Return
 		Idle()
 		If _Sleep(1000) Then Return
 	    If $Restart = True Then ContinueLoop
@@ -106,15 +104,10 @@ EndFunc   ;==>runBot
 Func Idle() ;Sequence that runs until Full Army
 	Local $TimeIdle = 0 ;In Seconds
 		While $fullArmy = False
-			If $CommandStop = -1 Then SetLog("====== Waiting for full army ======", $COLOR_RED)
+			If $CommandStop = -1 Then SetLog("~~~Waiting for full army~~~", $COLOR_PURPLE)
 			Local $hTimer = TimerInit()
-			Local $iReHere = 0
-			while $iReHere < 28
-				$iReHere += 1
-				checkMainScreen(False)
-				If _Sleep(1000) Then ExitLoop
-			    If $Restart = True Then ExitLoop
-			wend
+			If _Sleep(30000) Then ExitLoop
+			checkMainScreen()
 			If _Sleep(1000) Then ExitLoop
 			ZoomOut()
 			If _Sleep(1000) Then ExitLoop
@@ -129,13 +122,13 @@ Func Idle() ;Sequence that runs until Full Army
 				If _Sleep(1000) Then ExitLoop
 			EndIf
 			If $CommandStop = 0 And $fullArmy Then
-				SetLog("Army Camp and Barracks are full, stop Training...", $COLOR_ORANGE)
+				SetLog("Army Camp and Barracks is full, stop Training...", $COLOR_ORANGE)
 				$CommandStop = 3
 				$fullArmy = False
 			EndIf
 			If $CommandStop = -1 Then
-				DropTrophy()
 				If $fullArmy Then ExitLoop
+				DropTrophy()
 				If _Sleep(1000) Then ExitLoop
 			EndIf
 			DonateCC()
@@ -145,9 +138,6 @@ Func Idle() ;Sequence that runs until Full Army
 EndFunc   ;==>Idle
 
 Func AttackMain() ;Main control for attack functions
-		SaveConfig()
-		readConfig()
-		applyConfig()
 		PrepareSearch()
 	 If _Sleep(1000) Then Return
 		VillageSearch($TakeAllTownSnapShot)
@@ -164,10 +154,18 @@ Func Attack() ;Selects which algorithm
 		SetLog("======Beginning Attack======")
 ;~ 		Switch $icmbAlgorithm
 ;~ 			Case 0 ;Barbarians + Archers
-		  algorithm_AllTroops()
+	  Switch $attackpattern
+			Case 0 ; v5.5
+				SetLog("~Attacking with Old Algorithm...")
+				algorithm_Troops()
+			Case 1 ; v5.6
+				SetLog("~Attacking with New Algorithm...")
+				algorithm_AllTroops()
+		 EndSwitch
 ;~ 			Case 1 ;Use All Troops
 ;~ 				SetLog("Not Available yet, using Barch instead...", $COLOR_RED)
 ;~ 		  If _Sleep(2000) Then Return
 ;~ 		  AdvancedAttack()
 ;~ 		EndSwitch
 EndFunc   ;==>Attack
+

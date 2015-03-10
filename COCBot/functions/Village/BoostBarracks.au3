@@ -1,7 +1,7 @@
 ;==>BoostBarracks
 Func BoostBarracks()
    If (GUICtrlRead($cmbBoostBarracks) > 0) And ($boostsEnabled = 1)  Then
-	  If $barrackPos[0] = "" Then
+	  If $barrackPos[0][0] = "" Then
 		LocateBarrack()
 		SaveConfig()
 		If _Sleep(2000) Then Return
@@ -12,7 +12,7 @@ Func BoostBarracks()
 
 			   Click(1, 1)
 				 If _Sleep(1000) Then ExitLoop
-				 Click($barrackPos[0], $barrackPos[1])
+				 Click($barrackPos[0][0], $barrackPos[0][1])
 				 If _Sleep(1000) Then ExitLoop
 				 _CaptureRegion()
 				 $Boost = _PixelSearch(410, 603, 493, 621, Hex(0xfffd70, 6), 10)

@@ -29,11 +29,13 @@ If @Compiled Then
 Else
 	$Compiled = "Au3 Script"
 EndIf
+Global $sTimer, $hour, $min, $sec
+Global $waitOnObstacle = 180
 
 Global $hBitmap; Image for pixel functions
 Global $hHBitmap; Handle Image for pixel functions
 
-Global $Title = "BlueStacks App Player" ; Name of the Window
+Global $Title = "BlueStacks App Player" ; Name of the Window. T
 Global $HWnD = WinGetHandle($Title) ;Handle for Bluestacks window
 
 Global $config = @ScriptDir & "\config.ini"
@@ -46,33 +48,18 @@ Global $Restart = False
 Global $RunState = False
 Global $TakeLootSnapShot = True
 Global $TakeAllTownSnapShot = False
-Global $ReqText
 
-;~ For the remote Pause function, Dropbox must be installed on the system.
-;~ If it is already installed, the script will create the appropriate folder and files for remote use
-;~ If you need to pause completely so you can play on another device or stop the raiding but have the bot
-;~ remain collecting/training/donating, use your mobile device to move the appropriate file
-;~ (pause.txt) into the "Dropbox/CoC/remote" folder.
-Global $DropboxPath = @HomeDrive & @HomePath & "\Dropbox" ; Default Dropbox installation directory - used for the repository of the remote pause folder
-If DirGetSize($DropboxPath) and DirGetSize($DropboxPath & "\CoC\") = -1 Then
-	DirCreate($DropboxPath & "\CoC\")
-	DirCreate($DropboxPath & "\CoC\remote\")
-	_FileCreate($DropboxPath & "\CoC\pause.txt")
-;~ 	_FileCreate($DropboxPath & "\CoC\noraid.txt")
-EndIf
 
 Global $cmbTroopComp ;For Event change on ComboBox Troop Compositions
 Global $iCollectCounter = 0 ; Collect counter, when reaches $COLLECTATCOUNT, it will collect
 Global $COLLECTATCOUNT = 8 ; Run Collect() after this amount of times before actually collect
-
 ;---------------------------------------------------------------------------------------------------
 Global $BSpos[2] ; Inside BlueStacks positions relative to the screen
 ;---------------------------------------------------------------------------------------------------
-
 ;Search Settings
 Global $searchGold, $searchElixir, $searchDark, $searchTrophy, $searchTH ;Resources of bases when searching
 Global $MinGold, $MinElixir, $MinDark, $MinTrophy, $MaxTH ; Minimum Resources conditions
-Global $chkConditions[6], $ichkMeetOne ;Conditions (meet gold...)
+Global $chkConditions[6] ;Conditions (meet gold...)
 Global $icmbTH
 Global $THLocation
 Global $THx = 0, $THy = 0
@@ -83,7 +70,6 @@ $THText[2] = "8"
 $THText[3] = "9"
 $THText[4] = "10"
 Global $SearchCount = 0 ;Number of searches
-Global $THaddtiles, $THside, $THi
 
 ;Troop types
 Global Enum $eBarbarian, $eArcher, $eGiant, $eGoblin, $eWallbreaker, $eKing, $eQueen, $eCastle, $eLSpell
@@ -106,7 +92,7 @@ Global $QueenAttack[3] ;Queen attack settings
 
 Global $checkKPower = False ; Check for King activate power
 Global $checkQPower = False ; Check for Queen activate power
-Global $delayActivateKQ = 9000 ;Delay before activating KQ
+Global $delayActivateKQ = 6000 ;Delay before activating KQ
 Global $checkUseClanCastle ; Use Clan Castle settings
 Global $iradAttackMode ;Attack mode, 0 1 2
 
@@ -118,13 +104,18 @@ Global $LeftTHx, $RightTHx, $BottomTHy, $TopTHy
 Global $AtkTroopTH
 Global $GetTHLoc
 
+;Misc Settings
+Global $icmbUnitDelay, $icmbWaveDelay, $iRandomspeedatk = 1
+Global $itxtReconnect
+Global $itxtReturnh
+Global $attackpattern
+
 ;Boosts Settings
 Global $remainingBoosts = 0 ;  remaining boost to active during session
 Global $boostsEnabled = 1 ; is this function enabled
 
-; TownHall Settings
-Global $TownHallPos[2] = [-1, -1] ;Position of TownHall
-
+; Traps Settings
+Global $TrapPos[2] = [-1, -1] ;Position of trap
 ;Donate Settings
 Global $CCPos[2] = [-1, -1] ;Position of clan castle
 
@@ -151,32 +142,15 @@ Global $ArchersComp
 Global $GiantsComp
 Global $GoblinsComp
 Global $WBComp
-Global $CurBarb = 0
-Global $CurArch = 0
-Global $CurGiant = 0
-Global $CurGoblin = 0
-Global $CurWB = 0
+Global $CurBarb
+Global $CurArch
+Global $CurGiant
+Global $CurGoblin
+Global $CurWB
 Global $ArmyComp
 
-;Global $barrackPos[4][2] ;Positions of each barracks
-Global $barrackPos[2] ;Positions of each barracks
+Global $barrackPos[4][2] ;Positions of each barracks
 Global $barrackTroop[4] ;Barrack troop set
-Global $ArmyPos[2]
-
-;Other Settings
-Global $ichkWalls
-Global $icmbWalls
-Global $iUseStorage
-Global $itxtWallMinGold
-Global $itxtWallMinElixir
-Global $ichkTrap
-Global $icmbUnitDelay, $icmbWaveDelay, $iRandomspeedatk
-Global $iTimeTroops = 0
-Global $iTimeGiant = 120
-Global $iTimeWall = 120
-Global $iTimeArch = 25
-Global $iTimeGoblin = 30
-Global $iTimeBarba = 20
 
 ;General Settings
 Global $botPos[2] ; Position of bot used for Hide function
@@ -184,11 +158,11 @@ Global $frmBotPosX ; Position X of the GUI
 Global $frmBotPosY ; Position Y of the GUI
 Global $Hide = False ; If hidden or not
 
-Global $ichkBotStop, $icmbBotCommand, $icmbBotCond, $icmbHoursStop
+Global $ichkBotStop
+Global $icmbBotCommand
+Global $icmbBotCond
 Global $CommandStop = -1
 Global $MeetCondStop = False
-Global $UseTimeStop = -1
-Global $TimeToStop = -1
 
 Global $itxtMaxTrophy ; Max trophy before drop trophy
 Global $ichkBackground ; Background mode enabled disabled
@@ -196,13 +170,3 @@ Global $collectorPos[17][2] ;Positions of each collectors
 
 Global $break = @ScriptDir & "\images\break.bmp"
 Global $device = @ScriptDir & "\images\device.bmp"
-
-Global $GoldCount = 0, $ElixirCount = 0, $DarkCount = 0, $GemCount = 0, $FreeBuilder = 0
-Global $resArmy = 0
-Global $FirstAttack = 0
-Global $CurTrophy = 0
-Global $brrNum
-Global $sTimer, $hour, $min, $sec , $sTimeWakeUp = 120
-Global $CurCamp, $TotalCamp = 0
-Global $NoLeague
-Global $FirstStart = true

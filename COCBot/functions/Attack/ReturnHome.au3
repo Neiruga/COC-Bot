@@ -3,9 +3,9 @@
 Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 		If $GoldChangeCheck = True Then
 			If $checkKPower Or $checkQPower Then
-				If _Sleep(35000 - $delayActivateKQ) Then Return
+				If _Sleep(25000 - $delayActivateKQ) Then Return
 			Else
-				If _Sleep(35000) Then Return
+				If _Sleep(25000) Then Return
 			EndIf
 			While GoldElixirChange()
 				If _Sleep(1000) Then Return
@@ -19,15 +19,15 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 		Click(62, 519) ;Click Surrender
 		If _Sleep(500) Then Return
 		Click(512, 394) ;Click Confirm
-		If _Sleep(2000) Then Return
+		If _Sleep(750) Then Return
 
 		If $TakeSS = 1 Then
+			If _Sleep(2000) Then Return
 			SetLog("Taking snapshot of your loot", $COLOR_ORANGE)
 			Local $Date = @MDAY & "." & @MON & "." & @YEAR
 			Local $Time = @HOUR & "." & @MIN
 			_CaptureRegion()
 			_GDIPlus_ImageSaveToFile($hBitmap, $dirLoots & $Date & " at " & $Time & ".jpg")
-			;attackReport()
 		EndIf
 
 		If _Sleep(2000) Then Return

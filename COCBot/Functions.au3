@@ -1,4 +1,3 @@
-#include "functions\Attack\AttackReport.au3"
 #include "functions\Attack\dropCC.au3"
 #include "functions\Attack\dropHeroes.au3"
 #include "functions\Attack\GoldElixirChange.au3"
@@ -8,6 +7,7 @@
 #include "functions\Attack\Attack Algorithms\algorithmTH.au3"
 #include "functions\Attack\Attack Algorithms\algorithm_AllTroops.au3"
 #include "functions\Attack\Attack Algorithms\algorithm_Barch.au3"
+#include "functions\Attack\Attack Algorithms\algorithm_Troops.au3"
 
 #include "functions\Config\applyConfig.au3"
 #include "functions\Config\readConfig.au3"
@@ -17,7 +17,6 @@
 #include "functions\Image Search\ImageSearch.au3"
 #include "functions\Image Search\checkDeadBase.au3"
 #include "functions\Image Search\checkTownhall.au3"
-#include "functions\Image Search\checkWall.au3"
 
 #include "functions\Main Screen\checkMainScreen.au3"
 #include "functions\Main Screen\checkObstacles.au3"
@@ -32,7 +31,6 @@
 #include "functions\Other\SetLog.au3"
 #include "functions\Other\Tab.au3"
 #include "functions\Other\Time.au3"
-#include "functions\Other\BlockInputEx.au3"
 
 #include "functions\Pixels\_CaptureRegion.au3"
 #include "functions\Pixels\_ColorCheck.au3"
@@ -44,13 +42,10 @@
 #include "functions\Read Text\getChar.au3"
 #include "functions\Read Text\getDarkElixir.au3"
 #include "functions\Read Text\getDigit.au3"
-#include "functions\Read Text\getDigitLarge.au3"
-#include "functions\Read Text\getDigitSmall.au3"
 #include "functions\Read Text\getElixir.au3"
 #include "functions\Read Text\getGold.au3"
 #include "functions\Read Text\getNormal.au3"
 #include "functions\Read Text\getOther.au3"
-#include "functions\Read Text\getReturnHome.au3"
 #include "functions\Read Text\getTrophy.au3"
 #include "functions\Read Text\getString.au3"
 
@@ -61,7 +56,6 @@
 #include "functions\Search\VillageSearch.au3"
 
 #include "functions\Village\BoostBarracks.au3"
-#include "functions\Village\BotCommand.au3"
 #include "functions\Village\CheckFullArmy.au3"
 #include "functions\Village\Collect.au3"
 #include "functions\Village\DonateCC.au3"
@@ -70,11 +64,9 @@
 #include "functions\Village\isElixirFull.au3"
 #include "functions\Village\LocateBarrack.au3"
 #include "functions\Village\LocateClanCastle.au3"
-#include "functions\Village\LocateTownHall.au3"
+#include "functions\Village\LocateCollectors.au3"
+#include "functions\Village\LocateTrap.au3"
 #include "functions\Village\ReArm.au3"
 #include "functions\Village\RequestCC.au3"
 #include "functions\Village\Train.au3"
-#include "functions\Village\VillageReport.au3"
-#include "functions\Village\isBarrack.au3"
-#include "functions\Village\UpgradeWall.au3"
-
+#include "functions\Village\BotCommand.au3"

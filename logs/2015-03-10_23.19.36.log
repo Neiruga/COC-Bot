@@ -1,0 +1,106 @@
+2015-03-10 23:19:37 : ~~~~Welcome to AutoIt ClashBot v5.7.1!~~~~
+2015-03-10 23:19:37 : Executable running on X64 OS
+2015-03-10 23:19:37 : Bot is starting...
+2015-03-10 23:19:38 : Trying to locate Main Screen
+2015-03-10 23:19:38 : Main Screen Located
+2015-03-10 23:19:46 : Locating Barracks...
+2015-03-10 23:20:06 : -Clan Castle =  (431,297)
+2015-03-10 23:20:06 : -Locating Complete-
+2015-03-10 23:20:06 : -Barrack 1 = (270,179)
+2015-03-10 23:20:06 : -Barrack 2 = (381,127)
+2015-03-10 23:20:06 : -Barrack 3 = (477,125)
+2015-03-10 23:20:06 : -Barrack 4 = (590,181)
+2015-03-10 23:20:08 : Training Troops...
+2015-03-10 23:20:10 : Barrack 1 Training...
+2015-03-10 23:20:13 : Barrack 2 Training...
+2015-03-10 23:20:17 : Barrack 3 Training...
+2015-03-10 23:20:21 : Barrack 4 Training...
+2015-03-10 23:20:23 : Training Troops Complete
+2015-03-10 23:20:25 : Requesting for Clan Castle's Troops
+2015-03-10 23:20:31 : Donating Troops
+2015-03-10 23:20:33 : Chat Text:  
+2015-03-10 23:20:35 : Chat Text: ban
+2015-03-10 23:20:38 : Finished Donating
+2015-03-10 23:20:39 : Collecting Resources
+2015-03-10 23:20:50 : Searching...
+2015-03-10 23:20:56 : ============Searching For Dead Base============
+2015-03-10 23:20:56 : ~Gold: 100000; Elixir: 100000; Dark: 0; Trophy: 0; Townhall: 4-6
+2015-03-10 23:21:01 : (1) [G]: 32653   [E]: 27026   [D]: 109  [T]: 21  [TH]: 8, Inside
+2015-03-10 23:21:06 : (2) [G]: 64075   [E]: 79159   [D]: 217  [T]: 19  [TH]: 7, Inside
+2015-03-10 23:21:12 : (3) [G]: 30078   [E]: 41693   [D]: 103  [T]: 17  [TH]: -, -
+2015-03-10 23:21:18 : (4) [G]: 39520   [E]: 88552   [D]: 203  [T]: 25  [TH]: 7, Inside
+2015-03-10 23:21:23 : (5) [G]: 38588   [E]: 61959   [D]: 511  [T]: 34  [TH]: 8, Inside
+2015-03-10 23:21:29 : (6) [G]: 88997   [E]: 41791   [D]: 926  [T]: 24  [TH]: -, -
+2015-03-10 23:21:35 : (7) [G]: 45366   [E]: 81483   [D]: 316  [T]: 29  [TH]: 8, Inside
+2015-03-10 23:21:40 : (8) [G]: 31162   [E]: 24843   [D]: 254  [T]: 20  [TH]: 7, Inside
+2015-03-10 23:21:47 : (9) [G]: 87844   [E]: 118482  [D]: 826  [T]: 23  [TH]: 8, Inside
+2015-03-10 23:21:48 : ~~~~~~~Not dead base, skipping~~~~~~~
+2015-03-10 23:21:53 : (10) [G]: 88762   [E]: 24057   [D]: 196  [T]: 14  [TH]: 8, Inside
+2015-03-10 23:21:59 : (11) [G]: 34868   [E]: 45792   [D]: 0    [T]: 14  [TH]: 7, Inside
+2015-03-10 23:22:04 : (12) [G]: 11754   [E]: 61732   [D]: 153  [T]: 24  [TH]: 7, Inside
+2015-03-10 23:22:12 : (13) [G]: 199293  [E]: 181964  [D]: 465  [T]: 34  [TH]: -, -
+2015-03-10 23:22:13 : ~~~~~~~Dead Base Found!~~~~~~~
+2015-03-10 23:22:14 : ===============Searching Complete===============
+2015-03-10 23:22:16 : Preparing to attack
+2015-03-10 23:22:16 : -Barbarians 150
+2015-03-10 23:22:16 : -Archers 50
+2015-03-10 23:22:16 : -King 1
+2015-03-10 23:22:17 : ======Beginning Attack======
+2015-03-10 23:22:17 : ~Attacking with New Algorithm...
+2015-03-10 23:22:19 : ~Attacking in all sides...
+2015-03-10 23:22:20 : Can't get Townhall location
+2015-03-10 23:22:20 : Dropping first wave of 75 Barbarians
+2015-03-10 23:22:28 : Dropping first wave of 25 Archers
+2015-03-10 23:22:31 : Dropping second wave of 75 Barbarians
+2015-03-10 23:22:39 : Dropping second wave of 25 Archers
+2015-03-10 23:22:45 : Dropping King
+2015-03-10 23:22:47 : Dropping left over troops
+2015-03-10 23:22:47 : Checking remainding unlaunched troops
+2015-03-10 23:22:48 : -Barbarians 2
+2015-03-10 23:22:48 : Dropping last wave of 2 Barbarians
+2015-03-10 23:22:51 : Checking remainding unlaunched troops
+2015-03-10 23:22:54 : Waiting 6 seconds before activating Hero abilities
+2015-03-10 23:23:00 : Activate King's power
+2015-03-10 23:23:00 : ~Finished Attacking, waiting to finish
+2015-03-10 23:23:20 : Checking if the battle has finished
+2015-03-10 23:23:36 : Gold & Elixir change detected, waiting...
+2015-03-10 23:23:37 : Checking if the battle has finished
+2015-03-10 23:23:52 : Gold & Elixir change detected, waiting...
+2015-03-10 23:23:53 : Checking if the battle has finished
+2015-03-10 23:24:09 : Gold & Elixir change detected, waiting...
+2015-03-10 23:24:10 : Checking if the battle has finished
+2015-03-10 23:24:25 : Gold & Elixir change detected, waiting...
+2015-03-10 23:24:26 : Checking if the battle has finished
+2015-03-10 23:24:42 : Gold & Elixir change detected, waiting...
+2015-03-10 23:24:43 : Checking if the battle has finished
+2015-03-10 23:24:59 : Gold & Elixir change detected, waiting...
+2015-03-10 23:25:00 : Checking if the battle has finished
+2015-03-10 23:25:15 : Gold & Elixir change detected, waiting...
+2015-03-10 23:25:16 : Checking if the battle has finished
+2015-03-10 23:25:32 : Gold & Elixir change detected, waiting...
+2015-03-10 23:25:33 : Checking if the battle has finished
+2015-03-10 23:25:39 : Battle has finished
+2015-03-10 23:25:39 : Returning Home
+2015-03-10 23:25:56 : Trying to locate Main Screen
+2015-03-10 23:25:56 : Main Screen Located
+2015-03-10 23:26:02 : All traps armed
+2015-03-10 23:26:04 : Training Troops...
+2015-03-10 23:26:06 : Barrack 1 Training...
+2015-03-10 23:26:10 : Barrack 2 Training...
+2015-03-10 23:26:14 : Barrack 3 Training...
+2015-03-10 23:26:19 : Barrack 4 Training...
+2015-03-10 23:26:22 : Training Troops Complete
+2015-03-10 23:26:24 : Requesting for Clan Castle's Troops
+2015-03-10 23:26:26 : Request's already been made
+2015-03-10 23:26:27 : Donating Troops
+2015-03-10 23:26:30 : Chat Text:  
+2015-03-10 23:26:32 : Chat Text: ban
+2015-03-10 23:26:35 : Finished Donating
+2015-03-10 23:26:36 : Collecting Resources
+2015-03-10 23:26:46 : ~~~Waiting for full army~~~
+2015-03-10 23:27:16 : Trying to locate Main Screen
+2015-03-10 23:27:16 : Main Screen Located
+2015-03-10 23:27:18 : Training Troops...
+2015-03-10 23:27:20 : Barrack 1 is not available
+2015-03-10 23:27:23 : Barrack 2 Training...
+2015-03-10 23:27:27 : Barrack 3 Training...

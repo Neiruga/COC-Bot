@@ -15,7 +15,7 @@ Func NameOfTroop($kind, $plurial = 0)
 	  Case $eQueen
 		 Return "Queen"
 	  Case $eCastle
-		 Return "Clan Castle"
+		 Return "Clan castle"
 	  Case $eLSpell
 		 Return "Lightning Spell"
 	 Case Else
